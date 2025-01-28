@@ -19,11 +19,17 @@
             justify-content: center;
             align-items: center;
         }
-        .container {
-            background: rgba(0, 0, 0, 0.2); /* Increased transparency */
-            padding: 20px;
-            border-radius: 10px;
-        }
+       .container {
+    background: rgba(0, 0, 0, 0.3); /* Transparent black */
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 2%;  /* Moves the banner 2% from the top */
+    left: 50%;
+    transform: translateX(-50%); /* Centers it horizontally */
+    width: 80%; /* Optional: Adjust width for responsiveness */
+    text-align: center;
+ }
         h1 {
             font-size: 3em;
             margin-bottom: 10px;
@@ -45,7 +51,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Premium Domain Available </h1>
+        <h1> "This Premium Domain is Available" </h1>
         <div class="contact">
             <p>📧 mummydomains@gmail.com</p>
             <p>
